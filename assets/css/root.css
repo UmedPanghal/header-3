@@ -1,0 +1,16 @@
+:root {
+    /* color  */
+    --white-color: white;
+    --color-blue:#2F1893;
+
+    /* font-size */
+    --fs-58: 58px;
+    --fs-12:18px;
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-58: 38px;
+        --fs-12: 18px;
+    }
+}
